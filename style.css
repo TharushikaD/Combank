@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font-family: "Nunito",sans-serif;
+    background-color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #111;
+    overflow-x: hidden;
+    position: relative;
+    display: block;
+    /* transition: all .3s ease-in-out; */
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    box-sizing:border-box;
+    background-color: #fafafa;
+    margin-left: auto;
+    margin-right: auto; 
+} 
+
+.container-1 li{
+    padding-left:20px;
+  }
+
+.search-1{
+    display: flex;
+    justify-self: center;
+    border-left:  1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+   
+}
+
+#nav-search:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+ #nav-search{
+    border: none;
+    outline: none;
+    background-color: #fafafa;
+    padding:1px;
+    width:130px;
+    height:20px;
+    text-align: center;
+    font-size:11px;
+ }
+
+ .nav-drop1{
+    list-style-type:none;
+    font-size: 14px;
+    padding-right:15px;
+    padding-left:5px;
+    border-right: 1px solid #e6e6e6;
+    
+ }
+
+ .nav-drop1 img{
+    width: 26px;
+    height: 18px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 15px; 
+ }
+
+ .dropdown-menu{
+    width: 250px;
+    top: 120%;
+    z-index:2;
+    right: 0;
+    font-size:12px;
+ }
+
+ .dropdown-menu li{
+    padding-top:.4em;
+    padding-bottom:.4em;
+    color:#80818c;
+ }
+
+ .nav-fon a{
+    text-decoration: none;
+    color:#80818c;
+    font-size:15px;
+    padding-left:20px ;
+ }
+
+ .nav-fon{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+ }
+
+ /* .fourth-a{
+    border-radius:50%;
+    background:;
+ } */
+.container-2{
+    display:block;
+    justify-content:space-between;
+    box-sizing:border-box;
+    margin-left:0;
+   
+
+   
+}
+
+.container-2 li{
+    padding-left:1px;
+    padding-right:100px;
+}
+.container-2 li a{
+   font-size:1rem;
+   height: 100%;
+   font-weight:bold;
+   line-height: 22px;
+   position: relative;
+   /* transition: all .2s ease-in-out; */
+}   
+.container-2 .dropdown-toggle::after { 
+    content: none; 
+} 
