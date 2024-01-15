@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: "Nunito",sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #fff;
     font-size: 1.4rem;
     line-height: 1.6;
@@ -8,7 +8,6 @@ body{
     overflow-x: hidden;
     position: relative;
     display: block;
-    /* transition: all .3s ease-in-out; */
 }
 
 .container-1{
@@ -106,6 +105,9 @@ body{
 
 .container-2 nav{
    height:70px;
+   width:100%;
+   position:sticky;
+   /* z-index:1000; */
 }
 
 .container-2 li{
@@ -121,18 +123,16 @@ body{
    line-height: 22px; 
    position:relative;
 }   
+
+.container-2 li a:hover{
+   top: -0.16em;
+   transition: padding .5s, top .35s, box-shadow .4s;
+   box-shadow: 0 0.4rem 0 -0.2rem #d4c600;
+
+}
 .container-2 .dropdown-toggle::after { 
     content: none; 
 } 
-
-.container-2 .pb li a{
-    font-weight: lighter;
-    line-height: 30px ;
-    display:flex;
-    justify-content: right;
-    margin-left:80px;
-    background-color: #fff;
-}
 
 .btn-1{
    width:190px;
@@ -199,7 +199,7 @@ body{
 
 .carsoul-btn{
   position: absolute;
-  top:78%;
+  top:79%;
   margin-left:50%;
   left:50px;
   transform: translate(-50%, -50%);
@@ -216,7 +216,7 @@ body{
 
 .carsoul-btn-cc3{
    position: absolute;
-   top:75%;
+   top:76%;
    margin-left:50%;
    left:50px;
    transform: translate(-50%, -50%);
@@ -249,6 +249,146 @@ body{
    border-radius: 25px;
    width:160px;
 }
+
+/* .animated{
+   position: relative;
+	width: 50px;
+	max-width: 100%;
+	height: 40px;
+   background-color: #e43429;
+   border-radius: 15px;
+   animation-name:change;
+   animation-timing-function:ease-in;
+   animation-duration:10s;
+   animation-delay: 3s;
+   animation-iteration-count: infinite;
+}
+
+.animayImg{
+   position: absolute;
+	width:30px;
+	opacity: 0;
+	animation: change-img-anim 10s infinite;
+} */
+
+/* .com-logo{
+   position: sticky;
+   z-index:20;
+} */
+
+.btn-grp-1{
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto;
+   height:100px;
+}
+
+.btn-grp-1 button{
+   border: none;
+   outline: none;
+   display: flex;
+   justify-content: center;
+   padding-top:25px;
+   padding-left:25px; 
+}
+
+.btn-grp-1 button img{
+   width:40px;
+   height:40px;
+}
+
+#grp{
+   z-index: 12345;
+}
+.calc-off, #grp:hover .calc-on{
+   display:none
+}
+.calc-on, #grp:hover .calc-off{
+   display:block
+}
+.percentage-off, #grp:hover .percentage-on{
+   display:none
+}
+.percentage-on, #grp:hover .percentage-off{
+   display:block
+}
+.rate-off, #grp:hover .rate-on{
+   display:none
+}
+.rate-on, #grp:hover .rate-off{
+   display:block
+}
+.dollarex-off, #grp:hover .dollarex-on{
+   display:none
+}
+.dollarex-on, #grp:hover .dollarex-off{
+   display:block
+}
+.app-off, #grp:hover .app-on{
+   display:none
+}
+.app-on, #grp:hover .app-off{
+   display:block
+}
+.notice-off, #grp:hover .notice-on{
+   display:none
+}
+.notice-on, #grp:hover .notice-off{
+   display:block
+}
+
+.grp-span{
+   font-size: 1rem;
+   font-weight:500;
+   line-height:7.3;
+   overflow-x: hidden;
+   position: absolute;
+}
+
+.title-1{
+   font-weight:400;
+   margin-left:565px;
+   margin-top:80px;
+   color:#0a5bcd;
+}
+
+.title-2{
+   font-weight:bolder;
+   text-align: center;
+   margin-top:20px; 
+}
+
+.btn{
+   background-color: #e9ecef;
+}
+
+.btn-secondary{
+   background-color:rgba(201,202,218,.2) !important;
+}
+
+.btn-group{
+   width:490px;
+   
+}
+
+.container3-drop1 button{
+   border:none;
+   outline: none;
+}
+
+.container3-drop1{
+   margin-top:40px;
+   margin-left:420px;
+}
+
+.title-3{
+   font-weight:bolder;
+   font-size:25px;
+   width:180px;
+   clear:left;
+   text-align:right;
+   padding-right:40px;
+   padding-top:1px;
+} 
 
 
 
