@@ -390,5 +390,185 @@ body{
    padding-top:1px;
 } 
 
+.btn-grp-2{
+   display: grid;
+   grid-template-columns: auto auto auto auto auto;
+   height:100px;
+   margin-bottom:100PX;
+}
 
+.btn-grp-2 button{
+   background-color:#fff;
+   display: flex;
+   justify-content:center;
+   width:180px;
+   height:140px;
+   padding:40px;
+   margin:30px;
+   border:none;
+   outline: none;
+   border-radius:5px;
+   box-shadow:0px 5px 5px 0px rgba(121, 114, 114, 0.5); 
+}
+
+.btn-grp-2 button img{
+   width:40px;
+   height:40px;
+}
+
+.grp2-span{
+   font-size: 1rem;
+   font-weight:500;
+   line-height:7.3;
+   overflow-x: hidden;
+   position: absolute;
+}
+
+.deposit-off, #grp-2:hover .deposit-on{
+   display:none
+}
+.deposit-on, #grp-2:hover .deposit-off{
+   display:block
+}
+
+.wallet-off, #grp-2:hover .wallet-on{
+   display:none
+}
+.wallet-on, #grp-2:hover .wallet-off{
+   display:block
+}
+
+.acc-off, #grp-2:hover .acc-on{
+   display:none
+}
+.acc-on, #grp-2:hover .acc-off{
+   display:block
+}
+
+.card-off, #grp-2:hover .card-on{
+   display:none
+}
+.card-on, #grp-2:hover .card-off{
+   display:block
+}
+
+.loan-off, #grp-2:hover .loan-on{
+   display:none
+}
+.loan-on, #grp-2:hover .loan-off{
+   display:block
+}
+
+.btn-grp-2 button:hover{
+   background-image:linear-gradient(to right,#0949a2,#095bcc);
+   transform: translateY(3px);
+   box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+   
+}
+
+.SaveAcc{
+   margin-top:60px ;
+   background-color: #e9ecef;
+}
+
+.SaveAcc p{
+   margin-top:40px;
+   font-size:20px;
+}
+
+.cont{
+   padding-top:60px;
+   padding-left:60px;
+}
+
+.saveAcc-btn{
+  background-color:#fff;
+  color:#0e1126;
+  font-size: 13px;
+  font-weight:600;
+  padding: 12px 24px;
+  width:180px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px; 
+  transition: all .3s ease-in-out 
+}
+
+.saveAcc-btn:hover{
+   box-shadow: 0 2px 15px 0 rgba(10,5,74,.15);
+}
+
+.savebtn{
+   display: grid;
+   grid-template-columns:auto auto;
+   width:400px;
+   margin-top:40px;
+}
+
+.banner{
+   padding:30px;
+   height:190px;
+   color:#fff;
+   background-image:linear-gradient(to right,#0949a2,#095bcc) ;
+}
+
+.banner h3{
+   margin-left:490px;
+}
+
+.banner-btn{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   margin-left:190px;
+   margin-top:30px;
+   width:840px;
+}
+
+.container-4{
+   margin-top:30px;
+}
+
+.container-4 h1{
+   margin-left:380px;
+}
+
+.cards{
+   margin-top:30px;
+   display:grid;
+   grid-template-columns:auto auto auto;
+   column-gap:60px;
+   color: #111;
+}
+
+.card img{
+   margin-top:50px;
+   height:150px;
+   
+}
+
+.card{
+   display:flex;
+   justify-content: center;
+   margin:5px;
+   width:400px;
+   height:250px;
+   border-radius:4px;
+   box-shadow:  2px 5px 0 rgba(10,5,74,.15)
+}
+
+.card:hover{
+   background-image:linear-gradient(to right,#0949a2,#095bcc);
+   transform: translateY(3px);
+   box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.container-4 button{
+   margin-top:20px;
+   margin-left:580px;
+   transition: all .3s ease-in-out 
+}
+
+.container-4 button:hover{
+   box-shadow: 10px 12px 15px 0 rgba(10,5,74,.15);
+}
 
