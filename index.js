@@ -48,4 +48,31 @@ function btnO6(){
    document.getElementById('grp1-span6').style.color = '#3e4151'
 }
 
+function change1(){
+    document.getElementById('card1').style.color = '#fff'
+    // document.getElementById('card2').style.color = '#fff'
+    // document.getElementById('card3').style.color = '#fff'
+}
+
+function changed1(){
+    document.getElementById('card1').style.color = '#111'
+    // document.getElementById('card2').style.color = '#111'
+    // document.getElementById('card3').style.color = '#111'
+}
+
+function change2(){
+    document.getElementById('card2').style.color = '#fff'
+}
+
+function changed2(){
+    document.getElementById('card2').style.color = '#111'
+}
+
+function change3(){
+    document.getElementById('card3').style.color = '#fff'
+}
+
+function changed3(){
+   document.getElementById('card3').style.color = '#111'
+}
 
